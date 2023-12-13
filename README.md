@@ -1,4 +1,4 @@
-[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/README.md)
+[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
 
 ### Will a Customer Accept the Coupon?
 
@@ -96,4 +96,4 @@ Consider offering more coupons with longer expiration period (1 day), that were 
 
 Consider offering more coupons to drivers who drivers who went more than 8 times a month at cheap restaurants and had lower income (less than $25K), since they had had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) share, and it's worth checking if increasing its share will ead to a higher acceptance rate.
 
-[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/README.md)
+[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
