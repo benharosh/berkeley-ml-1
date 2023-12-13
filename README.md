@@ -1,4 +1,4 @@
-[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
+[Link to Notebook](https://nbviewer.org/github/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
 
 ### Will a Customer Accept the Coupon?
 
@@ -88,12 +88,12 @@ Consider offering more coupons to drivers who are 15 minutes or less from their 
 
 Consider offering less coupons to drivers who are 15 minutes and had rejection rate of (`54.7%`, `65.5%`) for (more than 15 mins, more than 25 mins), respectively - which was higher than the aggregated (`50.1%`) rejection rate 
 
-Consider offering more coupons to younger drivers (less than 21 old), who showed higher coupon acceptance rate (`69.6%`), but had only (`3.8%`) ocerall share.
+Consider offering more coupons to younger drivers (less than 21 old), who showed higher coupon acceptance rate (`69.6%`), but had only (`3.8%`) overall share.
 
-Consider offering less coupuns to older drivers, over 50 years old, who rejected coupuns at a higher rate (`57.9%`), compared to all other age groups and also with comparison to the aggregated `Coffee House` rejection rate (`50.1%`)
+Consider offering less coupuns to older drivers, over 50 years old, who rejected coupuns at a higher rate (`57.9%`), compared to all other age groups and also with comparison to the aggregated `Coffee House` rejection rate of (`50.1%`)
 
-Consider offering more coupons with longer expiration period (1 day), that were accepted by drivers at a higher rate (`58.3%`), compared to the acceptance rate (`43.1%`) of coupons that were offered with shorter expiration period (2 hours). Altenatively, we can try and extend the 2 hours expiration period window for the short term expiration, and see if we get higher acceptance rate by doing so.
+Consider offering more coupons with longer expiration period (1 day), that were accepted by drivers at a higher rate (`58.3%`), compared to the acceptance rate (`43.1%`) of coupons that were offered with shorter expiration period (2 hours). Altenatively, we can try and extend the 2 hours expiration period window for the short term expiration, and see if we get higher acceptance rate by doing so
 
-Consider offering more coupons to drivers who drivers who went more than 8 times a month at cheap restaurants and had lower income (less than $25K), since they had had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) share, and it's worth checking if increasing its share will ead to a higher acceptance rate.
+Consider offering more coupons to drivers who went more than 8 times a month at cheap restaurants and had lower income (less than $25K), since they had had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) `Coffee House` overall share, and it's worth checking if increasing its' share will lead to a higher acceptance rate of `Coffee House` coupons.
 
-[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
+[Link to Notebook](https://nbviewer.org/github/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
