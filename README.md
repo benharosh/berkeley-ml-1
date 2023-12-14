@@ -82,7 +82,7 @@ Younger drivers (less than 21 old), showed higher coupon acceptance rate (`69.6%
 
 Drivers over 50 years old rejected coupuns at a higher rate (`57.9%`), compared to all other age groups and also with comparison to the aggregated `Coffee House` rejection rate of (`50.1%`). We should consider offering less `Coffee House` coupons to this group of drivers.
 
-Drivers offered coupons with longer expiration period (1 day), accepted them at higher rate (`58.3%`), compared to the acceptance rate (`43.1%`) of coupons that were offered with shorter expiration period (2 hours). We should consider offering more coupons with longer expiration period (1 day) or, altenatively, extend the 2 hours expiration period window for the short term expiration coupons, and see if they get higher acceptance rate.
+Drivers who were offered coupons with longer expiration period (1 day), accepted them at higher rate (`58.3%`), compared to the acceptance rate (`43.1%`) of coupons that were offered with shorter expiration period (2 hours). We should consider offering more coupons with longer expiration period (1 day) or, altenatively, extend the 2 hours expiration period window for the short term expiration coupons, and see if they get higher acceptance rate.
 
 Drivers who were frequent cheap restaurants goers (more than 8 times) and had lower income (less than $25K), had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) `Coffee House` overall share, so it's hard to make strong assumptions based on the smaller smaple size, but maybe it worth to try and check if increasing this group's `Coffee House` coupons share - will lead to a higher acceptance rate.
 
