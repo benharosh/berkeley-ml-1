@@ -1,4 +1,4 @@
-[Link to Notebook](https://nbviewer.org/github/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
+[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
 
 ### Will a Customer Accept the Coupon?
 
@@ -59,41 +59,31 @@ The attributes of this data set include:
     
 ### Summary and Action Items for Bar Coupons
 
-Drivers who were frequent bar-goers (more than 3 times a month) were more likely (`76.8%`) to accept `Bar` coupons, while drivers who were less frequent bar-goers showed a higher `Bar` coupons rejection rate (`63%`).
+Drivers who were frequent bar-goers (more than 3 times a month) were more likely (`76.8%`) to accept `Bar` coupons, while drivers who were less frequent bar-goers showed a higher `Bar` coupons rejection rate (`63%`). Drivers who were bar-goers more than once a month had higher `Bar` coupons acceptance rate (`68.7%`), but it was slighltly less compared to the acceptance rate (`76.8%`) of the more frequent bar-goers. Given that, it should be considered to offer more `Bar` coupons to drivers who went more frequently to bars.
 
-Drivers who were bar-goers more than once a month still had higher `Bar` coupons acceptance rate (`68.7%`), but it was slighltly less compared to the acceptance rate (`76.8%`) of the more frequent bar-goers.
+For drivers who went to bars more than once a month, it seems that addind a split to driver age groups (older and younger than 25) wasn't a strong indicator of the acceptance rate. Adding an age filter (drivers older than 25) to drivers who went to bars more than once a month, produced a similar `Bar` coupons acceptance rate (`69.5%`), compared to drivers who just went to bars once a month's acceptance rate (`68.7%`).
 
-Consider offering more `Bar` to drivers who went more frequently to bars, since coupons were accepted at a higher rate with more frequent visits to bars on a monthly base. 
+Rejection rate for drivers who went to bars less than once a month, was higher (`66.5%`) compared to the aggregated rejection rate of (`58.8%`). Given that, it should be considered to offer less `Bar` coupons to this group of drivers. 
 
-For drivers who went to bars more than once a month, it seems who the split of age of the driver (to older and younger than 25) was not an indicaitive factor of the acceptance rate by itself. Looking at drivers older than 25 who went to bars once a month, produced a similar acceptance rate (`69.5%`) of `Bar` coupons, compared to drivers who just went to bars once a month (`68.7%`).
+Drivers who were bar-goers (more than once a month) and were younger than 30 years, presented a good indicarion for `Bar` coupons acceptance (`72.1%`), than drivers who just went to a bar more than once a month (`68.7%`). We should consider offering more `Bar` coupons to younger drivers that are bar-goers, since this group is more likely to produce higher acceptance rates.
 
-Consider offering less `Bar` coupons to drivers who went to bars less than once a month or were older than 25, since the rejection rate of this group was at higher rate (`66.5%`), compared to the aggregated rejection rate of (`58.8%`)
-
-Drivers who went to bars more than once a month and were younger than 30 years, were more likely (`72.1%`) to accept `Bar` coupon, than drivers who just went to a bar once a month (`68.7%`). When looking at the age histograms we can confirm who drivers above 30 are less likely to accept `Bar` coupons, compared to those below 30. We should consider offering more `Bar` coupons to younger drivers, since it will more likely produce higher acceptance rates.
-
-The sample size of drivers who are widowed (21) and work in farming/fishing/forestry (9) was so little compared to the number of `Bar` coupon drivers (2017), who when trying to exclude them from comparisons, there was no affect on the acceptance rate. Also, because of the small sample size it'll be very hard to draw conclusions on these particular groups.
-
-Drivers who went more frequent (> 4 a month) to cheap restaurants and had income of less than $50K, had similar acceptance rate to the aggregate acceptance rate of `Bar` coupons. These categories when combined together are not a good indication of acceptance rate for `Bar`.
+Drivers who were frequent cheap restaurants goers (more than 4 times a month), and had income of less than $50K, had similar acceptance rate to the aggregate acceptance rate of `Bar` coupons. These categories when combined together are not a good indication of acceptance rate for `Bar` coupons.
 
     
 ### Summary and Action Items for Coffee House Coupons
 
-Drivers were just slighly more likely (`52%`) to accept `Coffee House` coupons on warmer weather (`80F°`), compared to colder weather and to the overall aggregated `Coffee House` acceptance rate (`49.9%`). Drivers were more likely to reject the coupons on colder days at higher rates (`55.6%`, `54.4%`), compared to the aggregated `Coffee House` rejection rate (`50.1%`)
+Drivers were just slighly more likely (`52%`) to accept `Coffee House` coupons on warmer weather (`80F°`), compared to colder weather and to the overall aggregated `Coffee House` acceptance rate (`49.9%`). Drivers were more likely to reject the coupons on colder days at higher rates (`54.4%` and `55.6%`), compared to the aggregated `Coffee House` rejection rate (`50.1%`). We should consider offering less `Coffee House` coupons on colder days, amd offer more on warmer days.
 
-Consider offering more coupons to drivers who went to `Coffee House` 4 or more times a month (had a 22% `Coffee House` coupons share), since they showed higher acceptance rate of (`67.5%`), compared to drivers who went less than 4 times a month to coffee houses, and showed acceptance rate of just (`36.2%`)
+Drivers who were frequent coffee houses goers (4 or more times a month), showed higher acceptance rate of (`67.5%`), compared to drivers who were less frequent coffee houses goers, and showed acceptance rate of just (`36.2%`). We should consider offering less `Coffee House` coupons to less frequent coffee houses goers, who had 72% `Coffee House` coupons share, in order to lower the `Coffee House` coupons rejection rate, given they presented (`63.8%`) rejection rate (more than the aggregated rate). Alongside with that, we should consider offering more coupons to more frequent coffee houses goers, that had a share of only 22% of total `Coffee House` coupons, and preasented a higher acceptance rate.
 
-Consider offering less coupons to drivers who went to `Coffee House` less than 4 times a month (had 72% `Coffee House` coupons share), since they showed higher rejection rate of (`63.8%`), compared to drivers who went 4 or more times in a month to coffee houses, that had only (`32.5%`) rejection rate, and compared to the aggregated `Coffee House` rejection rate (`50.1%`)
+Drivers who are 15 minutes or less from their destination, that had 40.365% share of `Coffee House` coupons, presented higher acceptance rate (`59.1%`) compared to drivers who were more than 15 minutes from the destination. We should consider offering more `Coffee House` coupons to drivers are closer to the `Coffee House` coupon location, and less to drivers who are located further than 15 minutes drive from the coupon location, and showed higher rejection rates.
 
-Consider offering more coupons to drivers who are 15 minutes or less from their destination, which their share is currently 40.365%, since the acceptance rate (`59.1%`) was higher compared to drivers who were more than 15 minutes from the destination
+Younger drivers (less than 21 old), showed higher coupon acceptance rate (`69.6%`), but had only (`3.8%`) overall share. We might want to consider to increase their share by offering more coupons and see if in bigger volumes they still keep the high acceptance rate.
 
-Consider offering less coupons to drivers who are 15 minutes and had rejection rate of (`54.7%`, `65.5%`) for (more than 15 mins, more than 25 mins), respectively - which was higher than the aggregated (`50.1%`) rejection rate 
+Drivers over 50 years old rejected coupuns at a higher rate (`57.9%`), compared to all other age groups and also with comparison to the aggregated `Coffee House` rejection rate of (`50.1%`). We should consider offering less `Coffee House` coupons to this group of drivers.
 
-Consider offering more coupons to younger drivers (less than 21 old), who showed higher coupon acceptance rate (`69.6%`), but had only (`3.8%`) overall share.
+Drivers that were offered coupons with longer expiration period (1 day), accepted them at higher rate (`58.3%`), compared to the acceptance rate (`43.1%`) of coupons that were offered with shorter expiration period (2 hours). We should consider offering more coupons with longer expiration period (1 day) or, altenatively, extend the 2 hours expiration period window for the short term expiration coupons, and see if they get higher acceptance rate.
 
-Consider offering less coupuns to older drivers, over 50 years old, who rejected coupuns at a higher rate (`57.9%`), compared to all other age groups and also with comparison to the aggregated `Coffee House` rejection rate of (`50.1%`)
+Drivers who were frequent cheap restaurants goers (more than 8 times) and had lower income (less than $25K), had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) `Coffee House` overall share, so it's hard to make strong assumptions based on the smaller smaple size, but maybe it worth to try and check if increasing this group's `Coffee House` coupons share - will lead to a higher acceptance rate.
 
-Consider offering more coupons with longer expiration period (1 day), that were accepted by drivers at a higher rate (`58.3%`), compared to the acceptance rate (`43.1%`) of coupons that were offered with shorter expiration period (2 hours). Altenatively, we can try and extend the 2 hours expiration period window for the short term expiration, and see if we get higher acceptance rate by doing so
-
-Consider offering more coupons to drivers who went more than 8 times a month at cheap restaurants and had lower income (less than $25K), since they had had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) `Coffee House` overall share, and it's worth checking if increasing its' share will lead to a higher acceptance rate of `Coffee House` coupons.
-
-[Link to Notebook](https://nbviewer.org/github/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
+[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
