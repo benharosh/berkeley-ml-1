@@ -1,4 +1,4 @@
-[Link to Notebook](https://nbviewer.org/github/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
+[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
 
 ### Will a Customer Accept the Coupon?
 
@@ -86,4 +86,4 @@ Drivers offered coupons with longer expiration period (1 day), accepted them at 
 
 Drivers who were frequent cheap restaurants goers (more than 8 times) and had lower income (less than $25K), had higher acceptance rate (`70.8%`), compared to coupons that were offered to others (`49.5%`). This combination had only (`~2%`) `Coffee House` overall share, so it's hard to make strong assumptions based on the smaller smaple size, but maybe it worth to try and check if increasing this group's `Coffee House` coupons share - will lead to a higher acceptance rate.
 
-[Link to Notebook](https://nbviewer.org/github/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
+[Link to Notebook](https://github.com/benharosh/berkeley-ml-1/blob/main/assignment_5_1_starter/prompt.ipynb)
